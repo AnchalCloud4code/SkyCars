@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {}
+    "D:\\SkyCars\\SkyCars_Master\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {
+    "D:\\SkyCars\\SkyCars_Master\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
+        "projectUniqueName": "D:\\SkyCars\\SkyCars_Master\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
         "projectName": "SkyCarsWebAPI",
-        "projectPath": "D:\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
+        "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\obj\\",
+        "outputPath": "D:\\SkyCars\\SkyCars_Master\\SkyCarsWebAPI\\SkyCarsWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
