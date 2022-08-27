@@ -12,7 +12,7 @@ using SkyCars.Data.Extensions;
 using SkyCars.Core.Domain.Grid;
 using SkyCars.Data;
 
-namespace InchcapeDAA.Data
+namespace SkyCars.Data
 {
     /// <summary>
     /// Represents the entity repository implementation

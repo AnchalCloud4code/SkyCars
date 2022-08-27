@@ -4,14 +4,14 @@
     "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {
+    "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
-        "projectName": "SkyCarsWebAPI",
-        "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
+        "projectUniqueName": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj",
+        "projectName": "SkyCars.Core",
+        "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\obj\\",
+        "outputPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,14 +44,255 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj",
+        "projectName": "SkyCars.Data",
+        "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj": {
+                "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "FluentMigrator": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[3.3.0, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             },
             "linq2db": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[3.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Service\\SkyCars.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Service\\SkyCars.Service.csproj",
+        "projectName": "SkyCars.Service",
+        "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Service\\SkyCars.Service.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj": {
+                "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj"
+              },
+              "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj": {
+                "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
+        "projectName": "SkyCarsWebAPI",
+        "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\SkyCarsWebAPI.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCarsWebAPI\\SkyCarsWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj": {
+                "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Core\\SkyCars.Core.csproj"
+              },
+              "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj": {
+                "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Data\\SkyCars.Data.csproj"
+              },
+              "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Service\\SkyCars.Service.csproj": {
+                "projectPath": "D:\\SkyCars\\SkyCars_Master\\SkyCars\\SkyCars.Service\\SkyCars.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
