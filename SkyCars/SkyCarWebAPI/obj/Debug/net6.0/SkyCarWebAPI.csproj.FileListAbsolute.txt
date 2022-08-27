@@ -25,3 +25,14 @@ D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\obj\Debug\net6.0\refint\SkyCarWeb
 D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\obj\Debug\net6.0\SkyCarWebAPI.pdb
 D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\obj\Debug\net6.0\SkyCarWebAPI.genruntimeconfig.cache
 D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\obj\Debug\net6.0\ref\SkyCarWebAPI.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\SkyCars\SkyCars_Master\SkyCars\SkyCarWebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
