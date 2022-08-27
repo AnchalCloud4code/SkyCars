@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCarWebAPI", "SkyCarWebAPI.csproj", "{95854A9D-B9C4-43CB-B268-8EC12F46C768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCars.Core", "..\SkyCars.Core\SkyCars.Core.csproj", "{DFD37B7E-1ACC-4D48-8021-E3254ECC2DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCars.Data", "..\SkyCars.Data\SkyCars.Data.csproj", "{01DBF18E-FBF1-4C23-8818-A62F5C357D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCars.Service", "..\SkyCars.Service\SkyCars.Service.csproj", "{142D9B6E-D106-402E-8DF0-BEDC52622EE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95854A9D-B9C4-43CB-B268-8EC12F46C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95854A9D-B9C4-43CB-B268-8EC12F46C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95854A9D-B9C4-43CB-B268-8EC12F46C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95854A9D-B9C4-43CB-B268-8EC12F46C768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD37B7E-1ACC-4D48-8021-E3254ECC2DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD37B7E-1ACC-4D48-8021-E3254ECC2DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD37B7E-1ACC-4D48-8021-E3254ECC2DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD37B7E-1ACC-4D48-8021-E3254ECC2DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DBF18E-FBF1-4C23-8818-A62F5C357D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DBF18E-FBF1-4C23-8818-A62F5C357D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DBF18E-FBF1-4C23-8818-A62F5C357D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DBF18E-FBF1-4C23-8818-A62F5C357D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142D9B6E-D106-402E-8DF0-BEDC52622EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142D9B6E-D106-402E-8DF0-BEDC52622EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142D9B6E-D106-402E-8DF0-BEDC52622EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142D9B6E-D106-402E-8DF0-BEDC52622EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E6CA387-780D-4E4D-8F4A-C7BEB405E61D}
+	EndGlobalSection
+EndGlobal
