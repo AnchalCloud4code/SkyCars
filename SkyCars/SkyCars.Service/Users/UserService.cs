@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using SkyCars.Core;
-using SkyCars.Core.Domain.User;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.User;
+using SkyCars.Core.DomainEntity.Grid;
 using SkyCars.Data;
 using SkyCars.Services.Users;
 
@@ -67,6 +67,14 @@ namespace SkyCars.Services.Users
         {
             User.UpdatedDate = System.DateTime.Now;
             await _UserRepository.UpdateAsync(User);
+        }
+
+        public virtual async Task UpdateAsync(IList<User> UserList, int UserId, string Username)
+        {
+            if (UserList.Count == 0)
+                throw new ArgumentNullException(nameof(UserList));
+
+            await _UserRepository.UpdateAsync(UserList);
         }
 
         public virtual async Task<bool> IsNameExist(string UserName, int Id)

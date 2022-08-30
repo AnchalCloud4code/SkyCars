@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkyCars.Core.Domain.Grid
+namespace SkyCars.Core.DomainEntity.Grid
 {
     public class GridRequestModel
     {

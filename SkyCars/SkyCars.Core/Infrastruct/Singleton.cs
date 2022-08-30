@@ -1,4 +1,4 @@
-﻿namespace SkyCars.Core.Infrastructure
+﻿namespace SkyCars.Core.Infrastruct
 {
     /// <summary>
     /// A statically compiled "singleton" used to store objects throughout the 

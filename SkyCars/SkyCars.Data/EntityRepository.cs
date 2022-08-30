@@ -9,7 +9,7 @@ using LinqToDB.Data;
 using SkyCars.Core;
 using System.Collections;
 using SkyCars.Data.Extensions;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.Grid;
 using SkyCars.Data;
 
 namespace SkyCars.Data

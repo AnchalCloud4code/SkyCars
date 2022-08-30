@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using System.Linq;
 
-using SkyCars.Core.Domain.User;
+using SkyCars.Core.DomainEntity.User;
 using SkyCarsWebAPI.Models;
 
 namespace SkyCarsWebAPI.Infrastructure

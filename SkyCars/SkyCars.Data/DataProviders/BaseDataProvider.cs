@@ -11,7 +11,7 @@ using LinqToDB.DataProvider;
 using LinqToDB.Mapping;
 using LinqToDB.Tools;
 using SkyCars.Core;
-using SkyCars.Core.Infrastructure;
+using SkyCars.Core.Infrastruct;
 using SkyCars.Data.Mapping;
 //using StackExchange.Profiling;
 //using StackExchange.Profiling.Data;

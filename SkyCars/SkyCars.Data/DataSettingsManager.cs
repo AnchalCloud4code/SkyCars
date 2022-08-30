@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using FluentMigrator.Runner;
 using FluentMigrator.Runner.Initialization;
 using SkyCars.Data.DataProviders;
-using SkyCars.Core.Infrastructure;
+using SkyCars.Core.Infrastruct;
 
 namespace SkyCars.Data
 {

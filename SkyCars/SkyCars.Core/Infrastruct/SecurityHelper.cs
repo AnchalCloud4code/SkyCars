@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkyCars.Core.Infrastructure
+namespace SkyCars.Core.Infrastruct
 {
     public class SecurityHelper
     {

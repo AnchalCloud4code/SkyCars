@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkyCars.Core.Domain.User
+namespace SkyCars.Core.DomainEntity.User
 {
     public class User : BaseEntity
     {

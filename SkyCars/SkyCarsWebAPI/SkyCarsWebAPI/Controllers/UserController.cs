@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SkyCarsWebAPI.Extensions;
 using SkyCarsWebAPI.Models.Common;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.Grid;
 using SkyCarsWebAPI.Models.Common;
 using SkyCarsWebAPI.Infrastructure;
 using SkyCars.Services.Users;
 using SkyCarsWebAPI.Models;
 using System.Threading.Tasks;
-using SkyCars.Core.Domain.User;
+using SkyCars.Core.DomainEntity.User;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SkyCarsWebAPI.Controllers
 {
@@ -65,6 +67,21 @@ namespace SkyCarsWebAPI.Controllers
             return ApiResponseHelper.GenerateResponse(ApiStatusCode.Status200OK, model.Id == 0 ? "User saved successfully." : "User updated successfully.");
         }
 
+        [HttpDelete]
+        public async Task<ApiResponse> Delete(IList<int> Ids)
+        {
+            if (Ids.Count == 0)
+                return ApiResponseHelper.GenerateResponse(ApiStatusCode.Status422UnprocessableEntity, "Invalid Request Parmeters");
+
+            var obj = await _UserService.GetByIdsAsync(Ids).ConfigureAwait(false);
+            if (obj == null)
+                return ApiResponseHelper.GenerateResponse(ApiStatusCode.Status422UnprocessableEntity, "No Data Found");
+
+            obj.ToList().ForEach(s => s.IsDelete = true);
+            await _UserService.UpdateAsync(obj, CurrentUserId, CurrentUserName);
+            return ApiResponseHelper.GenerateResponse(ApiStatusCode.Status200OK, "User daleted successfully.");
+
+        }
 
     }
 }

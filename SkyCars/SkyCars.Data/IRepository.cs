@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using LinqToDB.Data;
 using SkyCars.Core;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.Grid;
 
 namespace SkyCars.Data
 {

@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using Microsoft.Net.Http.Headers;
 using ClosedXML.Excel;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.Grid;
 
 namespace SkyCarsWebAPI.Extensions
 {

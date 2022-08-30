@@ -1,5 +1,5 @@
 ﻿
-using SkyCars.Core.Domain.User;
+using SkyCars.Core.DomainEntity.User;
 using SkyCars.Data.Migrations;
 using System;
 using System.Collections.Generic;

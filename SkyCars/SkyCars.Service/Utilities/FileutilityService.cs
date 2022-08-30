@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using SkyCars.Core;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.Grid;
 using SkyCars.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;

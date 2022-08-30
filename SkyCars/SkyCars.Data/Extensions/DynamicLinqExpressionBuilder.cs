@@ -1,5 +1,5 @@
 ﻿using SkyCars.Core;
-using SkyCars.Core.Domain.Grid;
+using SkyCars.Core.DomainEntity.Grid;
 using System;
 using System.Collections;
 using System.Collections.Generic;
