@@ -4,6 +4,7 @@ using SkyCars.Data;
 using SkyCars.Data.DataProviders;
 using SkyCars.Services.Security;
 using SkyCars.Services.Utilities;
+using SkyCars.Services.Users;
 
 namespace SkyCarsWebAPI.Infrastructure
 {
@@ -36,7 +37,7 @@ namespace SkyCarsWebAPI.Infrastructure
             services.AddHttpContextAccessor();
             services.AddMemoryCache();
 
-            //services.AddScoped<IUserInfoService, UserInfoService>();
+            services.AddScoped<IUserService, UserService>();
 
         }
     }
