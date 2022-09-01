@@ -15,13 +15,13 @@ namespace SkyCars.Services.Users
     {
         #region Fields
 
-        private readonly IRepository<User> _UserRepository;
+        private readonly IRepository<User1> _UserRepository;
 
         #endregion
 
         #region Ctor
 
-        public UserService(IRepository<User> UserRepository)
+        public UserService(IRepository<User1> UserRepository)
         {
             _UserRepository = UserRepository;
         }
@@ -29,18 +29,25 @@ namespace SkyCars.Services.Users
         #endregion
 
         #region Methods
-        public virtual async Task<IPagedList<User>> GetAllAsync(GridRequestModel objGrid)
+        public virtual async Task<IPagedList<User1>> GetAllAsync(GridRequestModel objGrid)
         {
             var query = from d in _UserRepository.Table
                         where !d.IsDelete
-                        select new User()
+                        select new User1()
                         {
                             Id = d.Id,
-                            UserName = d.UserName,
-                            FirstName = d.FirstName,
-                            LastName = d.LastName,
+                            Name = d.Name,
                             Email = d.Email,
-                            ContactNumber = d.ContactNumber,
+                            Phone = d.Phone,
+                            ProfilePhoto = d.ProfilePhoto,
+                            Gender = d.Gender,
+                            CityId = d.CityId,
+                            CarId = d.CarId,
+                            IsActive = d.IsActive,
+                            RoleId = d.RoleId,
+                            GoogleId = d.GoogleId,
+                            FacebookId = d.FacebookId,
+                             Channel = d.Channel,
                             CreatedDate = d.CreatedDate
                         };
 
@@ -49,27 +56,27 @@ namespace SkyCars.Services.Users
             //return await _UserRepository.GetAllPagedAsync(objGrid);
         }
 
-        public virtual async Task<User> GetByIdAsync(int Id)
+        public virtual async Task<User1> GetByIdAsync(int Id)
         {
             return await _UserRepository.GetByIdAsync(Id);
         }
-        public virtual async Task<IList<User>> GetByIdsAsync(IList<int> ids)
+        public virtual async Task<IList<User1>> GetByIdsAsync(IList<int> ids)
         {
             return await _UserRepository.GetByIdsAsync(ids);
         }
 
-        public virtual async Task InsertAsync(User User, int UserId, string Username)
+        public virtual async Task InsertAsync(User1 User, int UserId, string Username)
         {
             User.CreatedDate = System.DateTime.Now;
             await _UserRepository.InsertAsync(User);
         }
-        public virtual async Task UpdateAsync(User User, int UserId, string Username)
+        public virtual async Task UpdateAsync(User1 User, int UserId, string Username)
         {
             User.UpdatedDate = System.DateTime.Now;
             await _UserRepository.UpdateAsync(User);
         }
 
-        public virtual async Task UpdateAsync(IList<User> UserList, int UserId, string Username)
+        public virtual async Task UpdateAsync(IList<User1> UserList, int UserId, string Username)
         {
             if (UserList.Count == 0)
                 throw new ArgumentNullException(nameof(UserList));
@@ -81,7 +88,7 @@ namespace SkyCars.Services.Users
         {
             var result = await _UserRepository.GetAllAsync(query =>
             {
-                return query.Where(x => x.UserName == UserName && x.Id != Id);
+                return query.Where(x => x.Name == UserName && x.Id != Id);
             });
             return result.Count > 0;
         }

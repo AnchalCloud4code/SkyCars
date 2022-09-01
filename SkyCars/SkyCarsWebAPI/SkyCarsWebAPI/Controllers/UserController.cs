@@ -53,16 +53,16 @@ namespace SkyCarsWebAPI.Controllers
         [HttpPost]
         public async Task<ApiResponse> Post(UserModel model)
         {
-            if (await _UserService.IsNameExist(model.UserName, model.Id))
+            if (await _UserService.IsNameExist(model.Name, model.Id))
                 return ApiResponseHelper.GenerateResponse(ApiStatusCode.Status400BadRequest, "User name already exists.");
 
             if (model.Id == 0)
             {
-                await _UserService.InsertAsync(model.MapTo<User>(), CurrentUserId, CurrentUserName);
+                await _UserService.InsertAsync(model.MapTo<User1>(), CurrentUserId, CurrentUserName);
             }
             else
             {
-                await _UserService.UpdateAsync(model.MapTo<User>(), CurrentUserId, CurrentUserName);
+                await _UserService.UpdateAsync(model.MapTo<User1>(), CurrentUserId, CurrentUserName);
             }
             return ApiResponseHelper.GenerateResponse(ApiStatusCode.Status200OK, model.Id == 0 ? "User saved successfully." : "User updated successfully.");
         }

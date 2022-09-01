@@ -14,8 +14,4 @@
 		<ProjectReference Include="..\SkyCars.Core\SkyCars.Core.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Migration\" />
-	</ItemGroup>
-
 </Project>

@@ -3,6 +3,8 @@ using System.Linq;
 
 using SkyCars.Core.DomainEntity.User;
 using SkyCarsWebAPI.Models;
+using SkyCars.Core.DomainEntity.BookingRefund;
+using SkyCars.Core.DomainEntity.BookingTracking;
 
 namespace SkyCarsWebAPI.Infrastructure
 {
@@ -17,7 +19,9 @@ namespace SkyCarsWebAPI.Infrastructure
             //#endregion
 
             #region :: Settings ::      
-            CreateMap<UserModel, User>().ReverseMap().IgnoreAllPropertiesWithAnInaccessibleSetter();
+            CreateMap<UserModel, User1>().ReverseMap().IgnoreAllPropertiesWithAnInaccessibleSetter();
+            CreateMap<RefundBookingsModel, Refund>().ReverseMap().IgnoreAllPropertiesWithAnInaccessibleSetter();
+            CreateMap<TrackingBookingModel, Tracking>().ReverseMap().IgnoreAllPropertiesWithAnInaccessibleSetter();
             #endregion
         }
     }

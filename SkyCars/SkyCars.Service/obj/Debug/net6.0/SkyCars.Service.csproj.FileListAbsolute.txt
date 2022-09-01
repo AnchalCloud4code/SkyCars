@@ -15,3 +15,20 @@ D:\SkyCars\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Servi
 D:\SkyCars\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\refint\SkyCars.Service.dll
 D:\SkyCars\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.pdb
 D:\SkyCars\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\ref\SkyCars.Service.dll
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Service.deps.json
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Service.dll
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Service.pdb
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Core.dll
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Data.dll
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Core.pdb
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\bin\Debug\net6.0\SkyCars.Data.pdb
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.csproj.AssemblyReference.cache
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.AssemblyInfoInputs.cache
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.AssemblyInfo.cs
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.csproj.CoreCompileInputs.cache
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.csproj.CopyComplete
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.dll
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\refint\SkyCars.Service.dll
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\SkyCars.Service.pdb
+D:\SKY CAR\SkyCars_Master\SkyCars\SkyCars.Service\obj\Debug\net6.0\ref\SkyCars.Service.dll

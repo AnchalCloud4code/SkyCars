@@ -5,6 +5,8 @@ using SkyCars.Data.DataProviders;
 using SkyCars.Services.Security;
 using SkyCars.Services.Utilities;
 using SkyCars.Services.Users;
+using SkyCars.Service.BOOKINGREFUNDS;
+using SkyCars.Service.TrackingServices;
 
 namespace SkyCarsWebAPI.Infrastructure
 {
@@ -38,6 +40,8 @@ namespace SkyCarsWebAPI.Infrastructure
             services.AddMemoryCache();
 
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IRefundService, RefundService>(); 
+            services.AddScoped<ITrackingService, TrackingServices>();
 
         }
     }

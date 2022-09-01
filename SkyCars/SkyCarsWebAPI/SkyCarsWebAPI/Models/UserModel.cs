@@ -9,12 +9,24 @@ namespace SkyCarsWebAPI.Models
 {
     public class UserModel : BaseModel
     {
-        public string UserName { get; set; }
-        public string Password { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string Name { get; set; }
+
         public string Email { get; set; }
-        public string ContactNumber { get; set; }
+
+        public string Phone { get; set; }
+        public string ProfilePhoto { get; set; }
+        public string Gender { get; set; }
+
+        public string CityId { get; set; }
+
+        public string CarId { get; set; }
+        public bool IsActive { get; set; }
+        public string RoleId { get; set; }
+        public string GoogleId { get; set; }
+        public string FacebookId { get; set; }
+        public string Channel { get; set; }
+        public DateTime? CreatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
         public bool IsDelete { get; set; }
     }
 }
